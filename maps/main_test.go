@@ -79,6 +79,7 @@ func TestSearchNew(t *testing.T) {
 }
 
 func TestAdd(t *testing.T) {
+
 	t.Run("new word", func(t *testing.T) {
 		dictionary := Dictionary{}
 		word := "test"
