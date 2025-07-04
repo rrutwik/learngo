@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-type Bitcoin int
+type Bitcoin uint
 
 type Stringer interface {
 	String() string
